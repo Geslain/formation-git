@@ -3,6 +3,16 @@ import addition.py
 import division.py
 import soustraction.py
 
+print("Choisissez le premier nombre")
+a = input()
+
+print("Choisissez le premier nombre")
+b = input()
+
+print("Choisissez l'opération voulue")
+operation = input()
+
+
 if operation == 'multiplication':
     multiplication(a, b)
 elif operation == 'addition':
