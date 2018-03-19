@@ -40,6 +40,13 @@ echo "la valeur de la multiplication : $result";
 
 }
 
+//Fonction Modulo
+
+if($indicator == 'modulo') {
+	$result = $valeur1 % $valeur2 ;
+echo "la valeur du modulo : $result";
+
+}
 
 ?>
 </p> 
