@@ -8,22 +8,22 @@ if(isset($_POST['a']) AND isset($_POST['b']) AND isset($_POST['op']))
  
     if($a != NULL AND $b != NULL) 
     {
-        if($op == '+')
+        if($op == 'add')
         {
             $result = $a + $b;
         }
 
-        if($op == '-') 
+        if($op == 'sous') 
         {
             $result = $a - $b;
         }
 
-        if($op == '*')
+        if($op == 'mul')
         {  
             $result = $a * $b;
         }
 
-        if($op == '/')
+        if($op == 'div')
         { 
             if (b == 0)
             {
