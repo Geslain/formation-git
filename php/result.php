@@ -25,6 +25,14 @@ if($indicator == 'soustraction') {
 echo "la valeur de la soustraction : $result";
 }
 
+//Fonction division
+
+if($indicator == 'division') {
+	$result = $valeur1 / $valeur2 ;
+echo "la valeur de la division : $result";
+}
+
+
 ?>
 </p> 
 </body>
