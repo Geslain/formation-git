@@ -9,6 +9,10 @@ server <- function(input, output) {
   # 1. It is "reactive" and therefore should be automatically
   #    re-executed when inputs (input$bins) change
   # 2. Its output type is a plot
+  output$O_res <- renderText({ "OK"})
   
+  First <- eventReactive(input$I_1, {
+     output$O_res <- renderText({ "TOTO"})
+  })
   
 }
