@@ -20,6 +20,11 @@ echo "la valeur de la somme : $result";
 
 //Fonction soustraction
 
+if($indicator == 'soustraction') {
+	$result = $valeur1 - $valeur2 ;
+echo "la valeur de la soustraction : $result";
+}
+
 ?>
 </p> 
 </body>
