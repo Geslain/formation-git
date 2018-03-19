@@ -1,0 +1,24 @@
+<?php
+
+include 'operator.php';
+
+?>
+<html>
+<head></head>
+<body>
+	<p><?=$error?></p>
+	<form action="index.php">
+		<input type="reset">C</input>
+		<input type="text" id="a" name="a"></input>
+		<select>
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+		</select>
+		<input type="text" id="b" name="b"></input>
+		<input type="submit">=</input>
+	</form>
+	<p><?=$result?></p>
+</body>
+</html>
