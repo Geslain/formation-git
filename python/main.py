@@ -1,7 +1,7 @@
-import mult.py
-import addition.py
-import division.py
-import soustraction.py
+import mult
+import addition
+import division
+import soustraction
 
 print("Choisissez le premier nombre")
 a = input()
