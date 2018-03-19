@@ -13,7 +13,10 @@ $valeur2 = $_POST['second'] ; // c'est la valeur du textbox2
 $indicator = $_POST['group1']; // c'est la valeur de l'opération utilisé
 
 //Fonction addition
-
+if($indicator == 'ajout') {
+	$result = $valeur1 + $valeur2 ;
+echo "la valeur de la somme : $result";
+}
 
 //Fonction soustraction
 
