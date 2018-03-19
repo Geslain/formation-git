@@ -1,7 +1,12 @@
+<?php
+
+
+
+?>
 <html>
 <head></head>
 <body>
-	<form action="">
+	<form action="operator.php">
 		<input type="text" id="a" name="a"></input>
 		<select>
 			<option value="+">+</option>
