@@ -31,7 +31,7 @@ echo "la valeur de la soustraction : $result";
 if($indicator == 'division') {
 	$result = $valeur1 / $valeur2 ;
 echo "la valeur de la division : $result";
-
+}
 //Fonction multiplication
 
 if($indicator == 'multi') {
