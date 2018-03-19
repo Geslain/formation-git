@@ -25,6 +25,14 @@ if($indicator == 'soustraction') {
 echo "la valeur de la soustraction : $result";
 }
 
+//Fonction multiplication
+
+if($indicator == 'multi') {
+	$result = $valeur1 * $valeur2 ;
+echo "la valeur de la multiplication : $result";
+}
+
+
 ?>
 </p> 
 </body>
