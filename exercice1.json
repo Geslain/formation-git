@@ -1,0 +1,241 @@
+{
+	"goalTreeString": {
+		"branches": {
+			"master": {
+				"target": "C8",
+				"id": "master",
+				"remoteTrackingBranchID": "o/master"
+			},
+			"o/master": {
+				"target": "C8",
+				"id": "o/master",
+				"remoteTrackingBranchID": null
+			},
+			"f/login": {
+				"target": "C5",
+				"id": "f/login",
+				"remoteTrackingBranchID": "o/f/login"
+			},
+			"o/f/login": {
+				"target": "C5",
+				"id": "o/f/login",
+				"remoteTrackingBranchID": null
+			},
+			"f/user": {
+				"target": "C7",
+				"id": "f/user",
+				"remoteTrackingBranchID": "o/f/user"
+			},
+			"o/f/user": {
+				"target": "C7",
+				"id": "o/f/user",
+				"remoteTrackingBranchID": null
+			}
+		},
+		"commits": {
+			"C0": {
+				"parents": [],
+				"id": "C0",
+				"rootCommit": true
+			},
+			"C1": {
+				"parents": ["C0"],
+				"id": "C1"
+			},
+			"C2": {
+				"parents": ["C1"],
+				"id": "C2"
+			},
+			"C3": {
+				"parents": ["C2"],
+				"id": "C3"
+			},
+			"C4": {
+				"parents": ["C3"],
+				"id": "C4"
+			},
+			"C5": {
+				"parents": ["C4"],
+				"id": "C5"
+			},
+			"C6": {
+				"parents": ["C4"],
+				"id": "C6"
+			},
+			"C7": {
+				"parents": ["C6"],
+				"id": "C7"
+			},
+			"C8": {
+				"parents": ["C5", "C7"],
+				"id": "C8"
+			}
+		},
+		"tags": {},
+		"HEAD": {
+			"target": "master",
+			"id": "HEAD"
+		},
+		"originTree": {
+			"branches": {
+				"master": {
+					"target": "C8",
+					"id": "master",
+					"remoteTrackingBranchID": null
+				},
+				"f/login": {
+					"target": "C5",
+					"id": "f/login",
+					"remoteTrackingBranchID": null
+				},
+				"f/user": {
+					"target": "C7",
+					"id": "f/user",
+					"remoteTrackingBranchID": null
+				}
+			},
+			"commits": {
+				"C0": {
+					"parents": [],
+					"id": "C0",
+					"rootCommit": true
+				},
+				"C1": {
+					"parents": ["C0"],
+					"id": "C1"
+				},
+				"C2": {
+					"parents": ["C1"],
+					"id": "C2"
+				},
+				"C3": {
+					"parents": ["C2"],
+					"id": "C3"
+				},
+				"C4": {
+					"parents": ["C3"],
+					"id": "C4"
+				},
+				"C5": {
+					"parents": ["C4"],
+					"id": "C5"
+				},
+				"C6": {
+					"parents": ["C4"],
+					"id": "C6"
+				},
+				"C7": {
+					"parents": ["C6"],
+					"id": "C7"
+				},
+				"C8": {
+					"parents": ["C5", "C7"],
+					"id": "C8"
+				}
+			},
+			"tags": {},
+			"HEAD": {
+				"target": "master",
+				"id": "HEAD"
+			}
+		}
+	},
+	"solutionCommand": "git pull origin master:f/login;git checkout f/login;git commit;git push;git checkout -b f/user master;git commit;git commit;git push;git checkout master;git merge f/login;git merge f/user;git push",
+	"startTree": {
+		"branches": {
+			"master": {
+				"target": "C1",
+				"id": "master",
+				"remoteTrackingBranchID": "o/master"
+			},
+			"o/master": {
+				"target": "C1",
+				"id": "o/master",
+				"remoteTrackingBranchID": null
+			}
+		},
+		"commits": {
+			"C0": {
+				"parents": [],
+				"id": "C0",
+				"rootCommit": true
+			},
+			"C1": {
+				"parents": ["C0"],
+				"id": "C1"
+			}
+		},
+		"tags": {},
+		"HEAD": {
+			"target": "master",
+			"id": "HEAD"
+		},
+		"originTree": {
+			"branches": {
+				"master": {
+					"target": "C4",
+					"id": "master",
+					"remoteTrackingBranchID": null
+				}
+			},
+			"commits": {
+				"C0": {
+					"parents": [],
+					"id": "C0",
+					"rootCommit": true
+				},
+				"C1": {
+					"parents": ["C0"],
+					"id": "C1"
+				},
+				"C2": {
+					"parents": ["C1"],
+					"id": "C2"
+				},
+				"C3": {
+					"parents": ["C2"],
+					"id": "C3"
+				},
+				"C4": {
+					"parents": ["C3"],
+					"id": "C4"
+				}
+			},
+			"tags": {},
+			"HEAD": {
+				"target": "master",
+				"id": "HEAD"
+			}
+		}
+	},
+	"name": {
+		"en_US": "Exercice_1"
+	},
+	"hint": {
+		"en_US": ""
+	},
+	"startDialog": {
+		"en_US": {
+			"childViews": [{
+				"type": "ModalAlert",
+				"options": {
+					"markdowns": [
+						"## Exercice 1",
+						"",
+						"Ici le but est de se rapprocher le plus possible d'un cas réel.",
+						"",
+						"Essayez de créer deux branches :",
+						"",
+						"- f/login",
+						"- f/user",
+						"",
+						"Votre objectif est de créer ces deux fonctionnalités, de les merger sur master, et de les pousser sur la remote",
+						"",
+						"",
+						""
+					]
+				}
+			}]
+		}
+	}
+}
